@@ -35,3 +35,9 @@ cd example
 npm i # or yarn to install dependencies
 npm start # or yarn start
 ```
+
+To do a one-off build, use `npm run build` or `yarn build`.
+
+### Jest
+
+Jest tests are set up to run with `npm test` or `yarn test`.
