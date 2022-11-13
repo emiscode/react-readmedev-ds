@@ -1,4 +1,4 @@
-# README.DEV - Books and Tutorials for Programming
+# README.DEV (DS) - Books and Tutorials for Programming
 
 This project was created to study how to build and publish [React](https://reactjs.org/) UI Components Library with [Storybook](https://storybook.js.org/).
 
