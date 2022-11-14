@@ -9,8 +9,8 @@ export default {
 
 const Template: ComponentStory<typeof RdTag> = args => <RdTag {...args} />;
 
-export const Tag = Template.bind({});
+export const Default = Template.bind({});
 
-Tag.args = {
+Default.args = {
   text: 'JavaScript',
 } as RdTagProps;

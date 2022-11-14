@@ -7,7 +7,7 @@ export default {
   component: RdCard,
 } as ComponentMeta<typeof RdCard>;
 
-export const CardComponent = () => {
+export const Default = () => {
   return (
     <RdCard>
       <h1>Hey, this is a card!</h1>

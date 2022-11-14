@@ -9,7 +9,9 @@ export const color = {
     '900': '#23272f',
   },
   yellow: {
+    '300': '#dab846',
     '500': '#f6be00',
+    '900': '#a38b07',
   },
   white: 'white',
 };
