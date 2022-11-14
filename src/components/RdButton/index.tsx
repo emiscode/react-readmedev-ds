@@ -12,6 +12,7 @@ const StyledButton = styled.button<RdButtonProps>`
   cursor: pointer;
   font-size: 20px;
   padding: 16px 32px;
+  font-family: monospace;
   border: 3px solid ${color.purple[500]};
 
   color: ${(props: RdButtonProps) =>

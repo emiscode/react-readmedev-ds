@@ -3,7 +3,7 @@ import { ComponentMeta } from '@storybook/react';
 import { RdCard } from '../src/components/RdCard';
 
 export default {
-  title: 'componentes/RdCard',
+  title: 'Components/RdCard',
   component: RdCard,
 } as ComponentMeta<typeof RdCard>;
 

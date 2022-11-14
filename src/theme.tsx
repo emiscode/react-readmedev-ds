@@ -8,5 +8,8 @@ export const color = {
     '700': '#343a46',
     '900': '#23272f',
   },
+  yellow: {
+    '500': '#f6be00',
+  },
   white: 'white',
 };
