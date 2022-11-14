@@ -40,30 +40,29 @@ const StyledSection = styled.section<{ selected: boolean }>`
   }
 `;
 
-export const RdBookFormatGroup = () => {
+export interface IRdBookFormatGroup {
+  id: number;
+  title: string;
+  body: string;
+  footer: string;
+}
+
+export interface RdBookFormatGroupProps {
+  items: IRdBookFormatGroup[];
+}
+
+export const RdBookFormatGroup = ({ items }: RdBookFormatGroupProps) => {
   return (
     <>
-      <StyledSection selected={false}>
-        <header>Book</header>
-        <div>
-          <strong>$ 9.99</strong>
-        </div>
-        <footer>.pdf, .epub, .mob</footer>
-      </StyledSection>
-      <StyledSection selected={true}>
-        <header>Book</header>
-        <div>
-          <strong>$ 9.99</strong>
-        </div>
-        <footer>.pdf, .epub, .mob</footer>
-      </StyledSection>
-      <StyledSection selected={false}>
-        <header>Book</header>
-        <div>
-          <strong>$ 9.99</strong>
-        </div>
-        <footer>.pdf, .epub, .mob</footer>
-      </StyledSection>
+      {items.map(item => (
+        <StyledSection key={item.id} selected={false}>
+          <header>{item.title}</header>
+          <div>
+            <strong>{item.body}</strong>
+          </div>
+          <footer>{item.footer}</footer>
+        </StyledSection>
+      ))}
     </>
   );
 };
