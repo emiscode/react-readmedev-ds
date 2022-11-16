@@ -1,3 +1,15 @@
+# v0.3.12 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- create example page to show components (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.11 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
