@@ -1,3 +1,16 @@
+# v0.3.8 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- update readme (emilio.scodeler@solides.com.br)
+- remove build step from release (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.7 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
