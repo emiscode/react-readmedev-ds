@@ -6,6 +6,8 @@ This project was created to study how to build and publish [React](https://react
 
 This project was bootstrapped with [TSDX](https://tsdx.io/).
 
+<img src="/example/screenshot.png" alt="">
+
 ## Commands
 
 The recommended workflow is to run TSDX in one terminal:

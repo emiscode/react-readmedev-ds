@@ -7,7 +7,7 @@ export interface RdTagProps {
 }
 
 const StyledTag = styled.span`
-  padding: 32px;
+  padding: 16px;
   font-size: 1.5rem;
   font-weight: 700;
   display: inline-block;

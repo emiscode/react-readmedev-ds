@@ -1,0 +1,29 @@
+body {
+  background: #fcf0e5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.mainContainer {
+  margin: 50px;
+}
+
+.title {
+  color: #a38b07;
+  padding-left: 8px;
+}
+
+.sub-title {
+  color: #2f0cc1;
+  padding-right: 8px;
+  border-right: 2px solid #2f0cc1;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
