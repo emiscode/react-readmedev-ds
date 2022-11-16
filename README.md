@@ -1,6 +1,6 @@
 # README.DEV (DS) - Books and Tutorials for Programming
 
-[![CI](https://github.com/emiscode/react-readmedev-ds/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/emiscode/react-readmedev-ds/actions/workflows/main.yml) [![RELEASE](https://github.com/emiscode/react-readmedev-ds/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/emiscode/react-readmedev-ds/actions/workflows/release.yml)
+[![CI](https://github.com/emiscode/react-readmedev-ds/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/emiscode/react-readmedev-ds/actions/workflows/main.yml) [![RELEASE](https://github.com/emiscode/react-readmedev-ds/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/emiscode/react-readmedev-ds/actions/workflows/release.yml)
 
 This project was created to study how to build and publish [React](https://reactjs.org/) UI Components Library with [Storybook](https://storybook.js.org/).
 
