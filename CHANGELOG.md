@@ -1,3 +1,16 @@
+# v0.3.4 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- clean up github actions (emilio.scodeler@solides.com.br)
+- Update README.md (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler ([@emiscode](https://github.com/emiscode))
+
+---
+
 # v0.3.3 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
