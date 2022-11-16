@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { color } from '../../theme';
 import styled from 'styled-components';
 
@@ -40,7 +40,7 @@ const StyledSection = styled.section<{ selected: boolean }>`
   }
 `;
 
-export interface IRdBookFormatGroup {
+export interface RdBookFormat {
   id: number;
   title: string;
   body: string;
@@ -48,14 +48,36 @@ export interface IRdBookFormatGroup {
 }
 
 export interface RdBookFormatGroupProps {
-  items: IRdBookFormatGroup[];
+  items: RdBookFormat[];
+  defaultItem?: RdBookFormat | null;
+  onChange?: (item: RdBookFormat) => void;
 }
 
-export const RdBookFormatGroup = ({ items }: RdBookFormatGroupProps) => {
+export const RdBookFormatGroup = ({
+  items,
+  onChange,
+  defaultItem,
+}: RdBookFormatGroupProps) => {
+  const [isSelected, setIsSelected] = useState<RdBookFormat | null>(
+    defaultItem ?? null
+  );
+
+  function onSelected(item: RdBookFormat): void {
+    setIsSelected(item);
+
+    if (onChange) {
+      onChange(item);
+    }
+  }
+
   return (
     <>
       {items.map(item => (
-        <StyledSection key={item.id} selected={false}>
+        <StyledSection
+          key={item.id}
+          selected={isSelected?.id === item.id}
+          onClick={() => onSelected(item)}
+        >
           <header>{item.title}</header>
           <div>
             <strong>{item.body}</strong>
