@@ -24,7 +24,7 @@ const StyledSection = styled.section<{ selected: boolean }>`
   header {
     font-size: 1.1rem;
     font-weight: 400;
-    color: ${props => (props.selected ? color.white : color.yellow[900])};
+    color: ${props => (props.selected ? color.white : color.gray[700])};
   }
 
   strong {

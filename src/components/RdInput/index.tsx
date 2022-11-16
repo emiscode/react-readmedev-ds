@@ -8,7 +8,7 @@ const StyledInput = styled.div`
     font-size: 1.5rem;
     flex-direction: column;
     font-family: monospace;
-    color: ${color.purple[500]};
+    color: ${color.gray[700]};
   }
 
   span {
@@ -23,6 +23,10 @@ const StyledInput = styled.div`
     background: ${color.white};
     color: ${color.yellow[900]};
     border: 1px solid ${color.purple[500]};
+
+    ::placeholder {
+      color: ${color.gray[300]};
+    }
   }
 `;
 
