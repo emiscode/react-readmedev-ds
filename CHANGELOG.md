@@ -1,3 +1,15 @@
+# v0.3.3 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- add github actions (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.2 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
