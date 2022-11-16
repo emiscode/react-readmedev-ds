@@ -1,3 +1,15 @@
+# v0.3.5 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- update readme (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.4 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
