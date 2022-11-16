@@ -1,3 +1,15 @@
+# v0.3.7 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- adjust gihub actions (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.6 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
