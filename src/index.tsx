@@ -1,5 +1,3 @@
-import './index.css';
-
 export * from './components/RdButton';
 export * from './components/RdCard';
 export * from './components/RdTag';

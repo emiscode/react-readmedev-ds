@@ -1,8 +1,14 @@
 import React from 'react';
-import { color } from '../../theme';
+import { color, font } from '../../theme';
 import styled from 'styled-components';
 
 const StyledInput = styled.div<{ shadowEffect: boolean }>`
+  * {
+    font-family: ${font.default};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   label {
     display: flex;
     font-size: 1.5rem;
