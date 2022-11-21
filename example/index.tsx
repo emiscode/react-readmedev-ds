@@ -1,8 +1,6 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import cat from './cat.png';
-import cat7 from './cat-7.png';
 
 import {
   RdBookFormatGroup,
@@ -20,10 +18,8 @@ const App = () => {
     <div className="main-container">
       <div className="container">
         <h1>
-          <img src={cat} alt="" style={{ width: '5%' }} />
-          <img src={cat7} alt="" style={{ width: '5%' }} />
-          <span className="title">Cat</span>
-          <span className="sub-title">Readme</span>
+          <span className="title">Readme</span>
+          <span className="sub-title">Dev</span>
         </h1>
         <h2>Programming Books, Articles and Tutorials.</h2>
         <h3>
@@ -73,6 +69,7 @@ const App = () => {
           onChange={(value: string): void => {
             console.log('RdInput');
           }}
+          shadowEffect={false}
         />
       </div>
 
