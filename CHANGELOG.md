@@ -1,3 +1,17 @@
+# v0.3.13 (Mon Nov 21 2022)
+
+#### ⚠️ Pushed to `main`
+
+- adjust font (emilio.scodeler@solides.com.br)
+- adjust global css (emilio.scodeler@solides.com.br)
+- adjust RdInput and clear project (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.12 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `main`
