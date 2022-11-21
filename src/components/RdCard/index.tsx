@@ -8,7 +8,6 @@ export interface RdCardProps {
 
 const StyledCard = styled.div`
   padding: 48px;
-  font-family: serif;
   background: ${color.white};
   border: 1px solid ${color.gray[700]};
   box-shadow: -10px 10px ${color.gray[700]};

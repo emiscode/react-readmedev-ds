@@ -11,7 +11,6 @@ const StyledTag = styled.span`
   font-size: 1.5rem;
   font-weight: 700;
   display: inline-block;
-  font-family: monospace;
   text-transform: uppercase;
   color: ${color.gray[700]};
   background: ${color.yellow[500]};

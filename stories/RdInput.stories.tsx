@@ -15,4 +15,5 @@ Default.args = {
   type: 'email',
   label: 'E-mail',
   placeholder: 'your best e-mail here',
+  shadowEffect: true,
 } as RdInputProps;

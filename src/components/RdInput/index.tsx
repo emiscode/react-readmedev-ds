@@ -2,13 +2,12 @@ import React from 'react';
 import { color } from '../../theme';
 import styled from 'styled-components';
 
-const StyledInput = styled.div`
+const StyledInput = styled.div<{ shadowEffect: boolean }>`
   label {
     display: flex;
     font-size: 1.5rem;
     flex-direction: column;
-    font-family: monospace;
-    color: ${color.gray[700]};
+    color: ${color.gray[900]};
   }
 
   span {
@@ -19,10 +18,15 @@ const StyledInput = styled.div`
     width: 32rem;
     padding: 10px;
     font-size: 1.3rem;
-    font-family: serif;
+    border-radius: 1rem;
     background: ${color.white};
-    color: ${color.yellow[900]};
+    color: ${color.gray[700]};
     border: 1px solid ${color.purple[500]};
+
+    box-shadow: ${props =>
+      props.shadowEffect
+        ? `0 5px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 16%)`
+        : `none`};
 
     ::placeholder {
       color: ${color.gray[300]};
@@ -34,6 +38,7 @@ export interface RdInputProps {
   label?: string;
   value: string;
   placeholder?: string;
+  shadowEffect: boolean;
   type?: 'text' | 'email' | 'password' | 'date';
   onChange: (value: string) => void;
 }
@@ -44,9 +49,10 @@ export const RdInput = ({
   onChange,
   placeholder,
   type = 'text',
+  shadowEffect = false,
 }: RdInputProps) => {
   return (
-    <StyledInput>
+    <StyledInput shadowEffect={shadowEffect}>
       <label>
         <span>{label}</span>
         <input

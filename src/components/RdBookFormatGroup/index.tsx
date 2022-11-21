@@ -11,7 +11,6 @@ const StyledSection = styled.section<{ selected: boolean }>`
   cursor: pointer;
   border: 2px solid;
   text-align: center;
-  font-family: serif;
   flex-direction: column;
   justify-content: space-around;
   border-color: ${color.yellow[900]};

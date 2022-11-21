@@ -15,7 +15,6 @@ const StyledSpan = styled.span`
   margin: 0 12px;
   font-size: 18px;
   line-height: 27px;
-  font-family: monospace;
   display: inline-block;
   color: ${color.yellow[900]};
 `;
@@ -36,7 +35,6 @@ const StyledLabel = styled.label`
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 8px;
-  font-family: monospace;
   color: ${color.gray[700]};
 `;
 

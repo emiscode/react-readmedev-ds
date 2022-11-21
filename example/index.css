@@ -2,26 +2,28 @@ body {
   background: #fcf0e5;
 }
 
-h1,
-h2,
-h3 {
-  font-family: monospace;
+h1 {
+  font-size: 2rem;
   font-weight: 500;
 }
 
-.mainContainer {
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.main-container {
   margin: 50px;
 }
 
 .title {
-  color: #a38b07;
+  color: #ff888b;
   padding-left: 8px;
 }
 
 .sub-title {
-  color: #2f0cc1;
+  color: #4b5661;
   padding-right: 8px;
-  border-right: 2px solid #2f0cc1;
 }
 
 .container {

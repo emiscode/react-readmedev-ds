@@ -1,6 +1,9 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import cat from './cat.png';
+import cat7 from './cat-7.png';
+
 import {
   RdBookFormatGroup,
   RdButton,
@@ -14,13 +17,15 @@ import './index.css';
 
 const App = () => {
   return (
-    <div className="mainContainer">
+    <div className="main-container">
       <div className="container">
         <h1>
-          <span className="title">{'>'} README</span>
-          <span className="sub-title">.DEV</span>
+          <img src={cat} alt="" style={{ width: '5%' }} />
+          <img src={cat7} alt="" style={{ width: '5%' }} />
+          <span className="title">Cat</span>
+          <span className="sub-title">Readme</span>
         </h1>
-        <h2>Books and Tutorials for Programming.</h2>
+        <h2>Programming Books, Articles and Tutorials.</h2>
         <h3>
           This project was created to study how to build and publish React UI
           Components Library with Storybook.
