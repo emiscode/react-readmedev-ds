@@ -25,7 +25,7 @@ const StyledInput = styled.div<{ shadowEffect: boolean }>`
     padding: 10px;
     font-size: 1.3rem;
     border-radius: 1rem;
-    background: ${color.white};
+    background: ${color.gray[50]};
     color: ${color.gray[700]};
     border: 1px solid ${color.blue[900]};
 
