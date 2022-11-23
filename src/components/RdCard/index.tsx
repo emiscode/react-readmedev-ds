@@ -13,7 +13,6 @@ const StyledCard = styled.div`
 
   padding: 48px;
   background: ${color.blue[700]};
-  border: 1px solid ${color.gray[700]};
   box-shadow: 8px 8px ${color.green[100]};
 `;
 
