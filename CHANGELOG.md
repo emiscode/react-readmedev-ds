@@ -1,3 +1,15 @@
+# v0.3.14 (Wed Nov 23 2022)
+
+#### ⚠️ Pushed to `main`
+
+- refactoring theme (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.13 (Mon Nov 21 2022)
 
 #### ⚠️ Pushed to `main`
