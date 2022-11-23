@@ -1,5 +1,5 @@
 import React from 'react';
-import { color } from '../../theme';
+import { color, font } from '../../theme';
 import styled, { css } from 'styled-components';
 
 export interface RdButtonProps {
@@ -9,30 +9,35 @@ export interface RdButtonProps {
 }
 
 const StyledButton = styled.button<RdButtonProps>`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   cursor: pointer;
   font-size: 20px;
   padding: 16px 32px;
-  border: 3px solid ${color.purple[500]};
+  border: 3px solid ${color.green[100]};
 
   color: ${(props: RdButtonProps) =>
-    props.btnType === 'primary' ? color.white : color.purple[500]};
+    props.btnType === 'primary' ? color.green[100] : color.gray[100]};
 
   background: ${(props: RdButtonProps) =>
-    props.btnType === 'primary' ? color.purple[500] : color.white};
+    props.btnType === 'primary' ? color.green[700] : color.blue[900]};
 
   ${(props: RdButtonProps) =>
     props.btnType === 'primary'
       ? css`
           &:hover {
-            background: ${color.purple[300]};
-            border: 3px solid ${color.purple[300]};
+            color: ${color.blue[900]};
+            background: ${color.green[100]};
+            border: 3px solid ${color.green[100]};
           }
         `
       : css`
           &:hover {
-            color: ${color.purple[300]};
-            background: ${color.white};
-            border: 3px solid ${color.purple[300]};
+            color: ${color.green[100]};
+            background: ${color.green[700]};
+            border: 3px solid ${color.green[100]};
           }
         `};
 `;

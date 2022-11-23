@@ -1,16 +1,20 @@
 import React, { ReactNode } from 'react';
 import styled from 'styled-components';
-import { color } from '../../theme';
+import { color, font } from '../../theme';
 
 export interface RdCardProps {
   children: ReactNode;
 }
 
 const StyledCard = styled.div`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   padding: 48px;
-  background: ${color.white};
+  background: ${color.blue[700]};
   border: 1px solid ${color.gray[700]};
-  box-shadow: -10px 10px ${color.gray[700]};
+  box-shadow: 8px 8px ${color.green[100]};
 `;
 
 export const RdCard = ({ children }: RdCardProps) => {

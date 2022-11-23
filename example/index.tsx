@@ -34,7 +34,7 @@ const App = () => {
 
       <div className="container" style={{ width: '30%' }}>
         <RdCard>
-          <h1>Hey, this is a card!</h1>
+          <h1 style={{ color: '#ccd6f6' }}>Hey, this is a card!</h1>
         </RdCard>
       </div>
 

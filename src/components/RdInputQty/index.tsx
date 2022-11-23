@@ -1,22 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { color } from '../../theme';
+import { color, font } from '../../theme';
 
 const StyledButton = styled.button`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   width: 28px;
   height: 28px;
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  color: ${color.white};
-  background: ${color.purple[500]};
+  color: ${color.blue[900]};
+  background: ${color.green[100]};
 `;
 const StyledSpan = styled.span`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   margin: 0 12px;
   font-size: 18px;
   line-height: 27px;
   display: inline-block;
-  color: ${color.yellow[900]};
+  color: ${color.gray[50]};
 `;
 
 const StyledFlexContainer = styled.div`
@@ -31,11 +39,15 @@ const StyledContainer = styled.div`
 `;
 
 const StyledLabel = styled.label`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   display: block;
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 8px;
-  color: ${color.gray[700]};
+  color: ${color.gray[100]};
 `;
 
 export interface RdInputQtyProps {

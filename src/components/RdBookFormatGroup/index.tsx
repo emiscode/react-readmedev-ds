@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-import { color } from '../../theme';
+import { color, font } from '../../theme';
 import styled from 'styled-components';
 
 const StyledSection = styled.section<{ selected: boolean }>`
+  font-family: ${font.default};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   width: 195px;
   height: 90px;
   margin: 10px;
@@ -13,29 +17,29 @@ const StyledSection = styled.section<{ selected: boolean }>`
   text-align: center;
   flex-direction: column;
   justify-content: space-around;
-  border-color: ${color.yellow[900]};
+  border-color: ${color.green[100]};
 
   background: ${props =>
     props.selected
-      ? `linear-gradient(98deg, ${color.yellow[900]} 35%, ${color.yellow[300]})`
-      : color.white};
+      ? `linear-gradient(98deg, ${color.green[700]} 35%, ${color.green[100]})`
+      : color.gray[100]};
 
   header {
     font-size: 1.1rem;
     font-weight: 400;
-    color: ${props => (props.selected ? color.white : color.gray[700])};
+    color: ${props => (props.selected ? color.gray[100] : color.green[700])};
   }
 
   strong {
     font-size: 1.4rem;
     font-weight: 700;
-    color: ${props => (props.selected ? color.white : color.yellow[900])};
+    color: ${props => (props.selected ? color.gray[50] : color.green[700])};
   }
 
   footer {
     font-size: 1rem;
     font-weight: 400;
-    color: ${props => (props.selected ? color.white : color.gray[300])};
+    color: ${props => (props.selected ? color.gray[100] : color.gray[300])};
   }
 `;
 

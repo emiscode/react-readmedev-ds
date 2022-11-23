@@ -10,7 +10,7 @@ export default {
 export const Default = () => {
   return (
     <RdCard>
-      <h1>Hey, this is a card!</h1>
+      <h1 style={{ color: '#ccd6f6' }}>Hey, this is a card!</h1>
     </RdCard>
   );
 };
