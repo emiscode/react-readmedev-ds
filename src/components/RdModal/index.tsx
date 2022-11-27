@@ -49,6 +49,10 @@ const BtnCloseModal = styled.button`
   border: none;
   cursor: pointer;
   color: #64ffda;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.2rem 0.5rem;
 `;
 
 export const RdModal = ({ children, open, onClose, title }: RdModalProps) => {
