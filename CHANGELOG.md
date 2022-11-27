@@ -1,3 +1,16 @@
+# v0.3.18 (Sun Nov 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- adjust input label color (emilio.scodeler@solides.com.br)
+- adjust btn close modal (emilio.scodeler@solides.com.br)
+
+#### Authors: 1
+
+- Emilio Scodeler (emilio.scodeler@solides.com.br)
+
+---
+
 # v0.3.17 (Sun Nov 27 2022)
 
 #### ⚠️ Pushed to `main`
