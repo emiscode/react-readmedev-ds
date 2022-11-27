@@ -13,11 +13,11 @@ const StyledInput = styled.div<{ shadowEffect: boolean }>`
     display: flex;
     font-size: 1.5rem;
     flex-direction: column;
-    color: ${color.gray[300]};
   }
 
   span {
     margin: 10px;
+    color: ${color.green[700]};
   }
 
   input {
@@ -28,6 +28,8 @@ const StyledInput = styled.div<{ shadowEffect: boolean }>`
     background: ${color.gray[50]};
     color: ${color.gray[700]};
     border: 1px solid ${color.blue[900]};
+    box-shadow: ${props =>
+      props.shadowEffect ? `0px 4px 8px -4px rgba(0, 0, 0, 0.85)` : 'none'};
 
     ::placeholder {
       color: ${color.gray[300]};
