@@ -9,6 +9,7 @@ import {
   RdInput,
   RdInputQty,
   RdTag,
+  RdModal,
 } from '../src/';
 
 import './index.css';
@@ -76,6 +77,13 @@ const App = () => {
       <div className="container">
         <RdInputQty label={'Quantity'} />
       </div>
+
+      <RdModal
+        title="Modal aberta"
+        children={<h1>Conteúda da modal</h1>}
+        open={true}
+        onClose={() => {}}
+      />
     </div>
   );
 };
